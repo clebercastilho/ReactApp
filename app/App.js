@@ -1,9 +1,18 @@
 import React from 'react';
 import ReactDom from 'react-dom';
 
+//componentes
+import {Greetings} from './components/Greetings.js';
+import {Clock} from './components/Clock.js';
+
 export class MainComponent extends React.Component {
     render() {
-        return <h1>Hello World!</h1>;
+        return (
+            <div>
+                <Greetings name='Cleber' />
+                <Clock />
+            </div>
+        );
     }
 }
 
