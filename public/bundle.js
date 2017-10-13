@@ -21200,15 +21200,11 @@ module.exports = function() {
 class Greetings extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
     render() {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
+            'h1',
             null,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'h1',
-                null,
-                'Ol\xE1 ',
-                this.props.name,
-                '!'
-            )
+            'Ol\xE1 ',
+            this.props.name,
+            '!'
         );
     }
 }
@@ -21232,14 +21228,10 @@ class Clock extends __WEBPACK_IMPORTED_MODULE_0_react___default.a.Component {
 
     render() {
         return __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-            'div',
+            'h2',
             null,
-            __WEBPACK_IMPORTED_MODULE_0_react___default.a.createElement(
-                'h2',
-                null,
-                'Hoje \xE9 ',
-                this.dateTimeNow.toLocaleDateString()
-            )
+            'Hoje \xE9 ',
+            this.dateTimeNow.toLocaleDateString()
         );
     }
 }
