@@ -8,7 +8,7 @@ export class Clock extends React.Component {
     
     render() {
         return (
-            <h2>Hoje é {this.dateTimeNow.toLocaleDateString()}</h2>
+            <h2>{`Hoje é ${this.dateTimeNow.toLocaleDateString()}`}</h2>
         );
     }
 }
